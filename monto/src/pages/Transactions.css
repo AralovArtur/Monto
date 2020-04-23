@@ -1,0 +1,148 @@
+.select-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.select-row > div {
+    /** Suurenda DatePicker'i laiust */
+    width: 100%;
+}
+
+.select-row > button {
+    margin-left: 8px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    margin: 30px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding-left: 30px;
+}
+
+.wrapper > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 70px 40px 70px;
+}
+
+.wrapper .button-icon {
+    height: 64px;
+    width: 64px;
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #00DC6E;
+    color: #00DC6E;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #00DC6E20 50%, #ffffff 50%);
+    background-size: 100% 200%;
+    transition: all 1s;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.wrapper .button-icon:focus {
+    outline: none;
+}
+
+.wrapper .button-icon-red {
+    border-color: #c82333;
+    color: #c82333;
+    background-image: linear-gradient(to bottom, #c8233320 50%, #ffffff 50%);
+}
+
+.wrapper .button-icon-blue {
+    border-color: #007bff;
+    color: #007bff;
+    background-image: linear-gradient(to bottom, #007bff20 50%, #ffffff 50%);
+}
+
+.wrapper .button-icon input[type="file"] {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.upload-button {
+    position: relative;
+}
+
+.upload-button > input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
+}
+
+.edit-button {
+    border: none;
+    font-size: 10px;
+    background: rgba(137, 134, 127, 0.51);
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.edit-button:hover {
+    color: #404040 !important;
+    font-weight: 100 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.delete-button {
+    border: none;
+    font-size: 10px;
+    background: rgba(226, 45, 55, 0.5);
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.delete-button:hover {
+    color: #404040 !important;
+    font-weight: 100 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+
+.wrapper .button-icon:hover {
+    background-position: 0 -100%;
+}
+
+.expense-button {
+    background-color: yellow;
+    color: yellow;
+}

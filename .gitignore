@@ -1,0 +1,9 @@
+.idea/
+.mvn/
+build/
+node_modules/
+debug.log
+target/
+monto.iml
+
+src/main/resources/application.properties
